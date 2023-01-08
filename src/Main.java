@@ -141,12 +141,25 @@ public class Main {
             arr[i] = (int)((Math.random()*30)+20);
         }
         //sorting
-        bubbleSort(arr);
+//        bubbleSort(arr);
+        insertionSort(arr);
         //to decreasing
         System.out.println(Arrays.toString(arr));
         System.out.println("running time is -->"+ n*n);
 
         // second problem
+//        Triangle[] triangles = new Triangle[4];
+//        double sum = 0;
+//        System.out.println("enter number of triangles");
+//        int y = input.nextInt();
+//        for (int i = 0; i<n;i++) {
+//            System.out.println("enter three sides no");
+//            triangles[n].s1 = input.nextInt();
+//            triangles[n].s2 = input.nextInt();
+//            triangles[n].s3 = input.nextInt();
+//            sum+=triangles[n].area();
+//        }
+//        System.out.println(sum);
 
     }
 }
